@@ -18,15 +18,16 @@ flowchart TD
     A@{ shape: circle, label: "Start" }
     
     B@{ shape: lean-r, label: "Masukkan Bilangan" }
+    G@{ shape: rect, label: "Tampung Bilangan ke variabel n" }
 
-    C@{ shape: diamond, label: "Bilangan % 2==0" }
+    C@{ shape: diamond, label: "n % 2==0" }
 
     D@{ shape: lean-r, label: "Bilangan Ganjil" }
     E@{ shape: lean-r, label: "Bilangan Genap" }
 
     F@{ shape: dbl-circ, label: "Stop" }
 
-    A --> B --> C-. Ya .-> E --> F
+    A --> G --> B --> C-. Ya .-> E --> F
     C-. Tidak .-> D --> F
 
 
