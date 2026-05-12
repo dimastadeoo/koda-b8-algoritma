@@ -24,8 +24,8 @@ flowchart TD
 
     C@{ shape: diamond, label: "n==0" }
 
-    D@{ shape: lean-r, label: "phi = 3.14" }
-    E@{ shape: lean-r, label: "phi = 22/7" }
+    D@{ shape: rect, label: "phi = 3.14" }
+    E@{ shape: rect, label: "phi = 22/7" }
 
     F@{ shape: rect, label: "Luas = phi *Jari * Jari" }
     H@{ shape: rect, label: "Kel = 2* phi *Jari" }
