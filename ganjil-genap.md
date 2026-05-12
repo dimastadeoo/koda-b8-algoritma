@@ -5,7 +5,7 @@ Algoritma ini untuk menentukan bilangan ganjil dan genap secara Deskriptif
 
 1. Mulai
 2. Masukkan Angka
-3. menentukan bilang genap: jika bilangan bisa habis dibagi 2, Kelompokkan di bilangan genap
+3. menentukan bilangan genap: jika bilangan bisa habis dibagi 2, Kelompokkan di bilangan genap
 4. lalu sisanya kelompokkan di bilangan ganjil
 5. selesai
 
