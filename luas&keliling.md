@@ -48,9 +48,9 @@ flowchart TD
 ``` pseudo
 DECLARE Jari: INTEGER
 DECLARE n: INTEGER
-DECLARE phi: REAL
-DECLARE Luas: REAL
-DECLARE Keliling: REAL
+DECLARE phi: DOUBLE
+DECLARE Luas: DOUBLE
+DECLARE Keliling: DOUBLE
 
 INPUT Jari
 n <- Jari % 7
