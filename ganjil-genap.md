@@ -18,12 +18,12 @@ flowchart TD
     A@{ shape: circle, label: "Start" }
     
     B@{ shape: lean-r, label: "Bilangan" }
-    G@{ shape: rect, label: "n == Bilangan % 2" }
+    G@{ shape: rect, label: "n = Bilangan % 2" }
 
-    C@{ shape: diamond, label: "n=0" }
+    C@{ shape: diamond, label: "n==0" }
 
-    D@{ shape: lean-r, label: "Bilangan Ganjil" }
-    E@{ shape: lean-r, label: "Bilangan Genap" }
+    D@{ shape: lean-r, label: "&quot;Bilangan Ganjil&quot;" }
+    E@{ shape: lean-r, label: "&quot;Bilangan Genap&quot;" }
 
     F@{ shape: dbl-circ, label: "Stop" }
 
