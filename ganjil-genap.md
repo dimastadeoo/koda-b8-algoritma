@@ -6,8 +6,8 @@ Algoritma ini untuk menentukan bilangan ganjil dan genap secara Deskriptif
 1. Mulai
 2. Masukkan Bilangan
 3. Tampung nilai n dari hasil Bilangan di Modulus 2
-4. jika nilai n hasilnya 0, Kelompokkan di bilangan genap
-5. lalu sisanya kelompokkan di bilangan ganjil
+4. jika nilai n hasilnya 0, outputkan bilangan genap
+5. jika tidak outputkan di bilangan ganjil
 6. selesai
 
 ## Menentukan Ganjil Genap Flowcart
