@@ -19,7 +19,7 @@ flowchart TD
     
     B@{ shape: lean-r, label: "Masukkan Bilangan" }
 
-    C@{ shape: diamond, label: "Bilangan % 2" }
+    C@{ shape: diamond, label: "Bilangan mod 2=0" }
 
     D@{ shape: rect, label: "Bilangan Ganjil" }
     E@{ shape: rect, label: "Bilangan Genap" }
