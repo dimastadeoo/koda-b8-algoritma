@@ -51,8 +51,8 @@ Algoritma ini menghitung nilai valuasi saham apakah Murah atau Mahal dengan algo
 DECLARE hargaSaham: INTEGER
 DECLARE totalEkuitas: INTEGER
 DECLARE jumlahSaham: INTEGER
-DECLARE BPVS: REAL
-DECLARE PBV: REAL
+DECLARE BPVS: DOUBLE
+DECLARE PBV: DOUBLE
 
 INPUT hargaSaham
 INPUT totalEkuitas
