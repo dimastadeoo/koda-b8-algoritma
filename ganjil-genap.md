@@ -17,10 +17,10 @@ Algoritma ini untuk menentukan bilangan ganjil dan genap menggunakan flowchart
 flowchart TD
     A@{ shape: circle, label: "Start" }
     
-    B@{ shape: lean-r, label: "Masukkan Bilangan" }
-    G@{ shape: rect, label: "Bilangan = n" }
+    B@{ shape: lean-r, label: "Bilangan" }
+    G@{ shape: rect, label: "n = Bilangan % 2" }
 
-    C@{ shape: diamond, label: "n % 2==0" }
+    C@{ shape: diamond, label: "n=0" }
 
     D@{ shape: lean-r, label: "Bilangan Ganjil" }
     E@{ shape: lean-r, label: "Bilangan Genap" }
