@@ -1,10 +1,33 @@
 # Algoritma
-## Menentukan Ganjil Genap
+## Menentukan Ganjil Genap Deskriptif
 
-Algoritma ini untuk menentukan bilangan ganjil dan genap
+Algoritma ini untuk menentukan bilangan ganjil dan genap secara Deskriptif
 
 1. Mulai
 2. siapkan deretan angka yang ingin ditentukan bilangan ganjil / genap
 3. menentukan bilang genap: jika bilangan bisa habis dibagi 2, Kelompokkan di bilangan genap
 4. lalu sisanya kelompokkan di bilangan ganjil
 5. selesai
+
+## Menentukan Ganjil Genap Flowcart
+
+Algoritma ini untuk menentukan bilangan ganjil dan genap menggunakan flowchart
+
+```mermaid
+flowchart TD
+    A@{ shape: circle, label: "Start" }
+    
+    B@{ shape: lean-r, label: "Masukkan Bilangan" }
+
+    C@{ shape: diamond, label: "Bilangan % 2" }
+
+    D@{ shape: rect, label: "Bilangan Ganjil" }
+    E@{ shape: rect, label: "Bilangan Genap" }
+
+    F@{ shape: dbl-circ, label: "Stop" }
+
+    A --> B --> C-. Ya .-> E --> F
+    C-. Tidak .-> D --> F
+
+
+```
