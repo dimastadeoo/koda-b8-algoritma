@@ -48,16 +48,17 @@ flowchart TD
 ``` pseudo
 DECLARE Jari: INTEGER
 DECLARE n: INTEGER
-DECLARE Luas: DOUBLE
-DECLARE Keliling: DOUBLE
+DECLARE phi: REAL
+DECLARE Luas: REAL
+DECLARE Keliling: REAL
 
 INPUT Jari
 n <- Jari % 7
 
 IF n==0 THEN
-    CONSTANT phi = 22/7
+    phi <- 22/7
 ELSE 
-    CONSTANT phi = 3.14
+    phi <- 3.14
 ENDIF
 Luas <- phi * Jari * Jari
 Keliling <- 2 * phi * Jari
