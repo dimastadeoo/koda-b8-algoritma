@@ -18,7 +18,7 @@ flowchart TD
     A@{ shape: circle, label: "Start" }
     
     B@{ shape: lean-r, label: "Bilangan" }
-    G@{ shape: rect, label: "n = Bilangan % 2" }
+    G@{ shape: rect, label: "n == Bilangan % 2" }
 
     C@{ shape: diamond, label: "n=0" }
 
