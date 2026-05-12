@@ -32,3 +32,22 @@ flowchart TD
 
 
 ```
+## Menentukan Ganjil Genap PSEUDO-CODE
+
+Algoritma ini untuk menentukan bilangan ganjil dan genap menggunakan Pseude-Code
+
+```pseudo
+DECLARE Bilangan: INTEGER
+CONSTANT n = Bilangan % 2
+
+INPUT Bilangan
+
+IF n==0 THEN
+    OUTPUT "Bilangan Genap"
+ELSE
+    OUTPUT "Bilangan Ganjil"
+ENDIF
+
+
+
+```
