@@ -21,8 +21,8 @@ flowchart TD
 
     C@{ shape: diamond, label: "Bilangan % 2==0" }
 
-    D@{ shape: rect, label: "Bilangan Ganjil" }
-    E@{ shape: rect, label: "Bilangan Genap" }
+    D@{ shape: lean-r, label: "Bilangan Ganjil" }
+    E@{ shape: lean-r, label: "Bilangan Genap" }
 
     F@{ shape: dbl-circ, label: "Stop" }
 
