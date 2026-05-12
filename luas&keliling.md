@@ -40,3 +40,25 @@ flowchart TD
 
 
 ```
+## Hitung Luas dan Keliling Lingkaran Pseudo-Code
+
+``` pseudo
+DECLARE Jari: INTEGER
+DECLARE n: INTEGER
+DECLARE Luas: DOUBLE
+DECLARE Keliling: DOUBLE
+
+INPUT Jari
+n <- Jari % 7
+
+IF n==0 THEN
+    CONSTANT phi = 22/7
+ELSE 
+    CONSTANT phi = 3.14
+Luas <- phi * Jari * Jari
+Keliling <- 2 * phi * Jari
+
+OUTPUT "Luas Lingkaran", Luas
+OUTPUT "Keliling Lingkaran", Keliling
+
+```
