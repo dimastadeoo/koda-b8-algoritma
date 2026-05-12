@@ -1,5 +1,5 @@
 # Algoritma
-## Hitung Luas dan Keliling Lingkaran
+## Hitung Luas dan Keliling Lingkaran Deskriptif
 
 Algoritma ini digunakan untuk menghitung luas dan keliling lingkaran
 
@@ -10,3 +10,33 @@ Algoritma ini digunakan untuk menghitung luas dan keliling lingkaran
 5. Hitung luas dengan rumus: phi dikalikan Jari jari kuadrat
 6. Hitung Keliling dengan rumus: 2 dikalikan phi dikalikan jari jari
 7. selesai
+
+## Hitung Luas dan Keliling Lingkaran Flowchart
+
+Algoritma ini untuk menentukan bLuas dan Keliling Lingkaran menggunakan flowchart
+
+```mermaid
+flowchart TD
+    A@{ shape: circle, label: "Start" }
+    
+    B@{ shape: lean-r, label: "Jari" }
+    G@{ shape: rect, label: "n = Jari % 7" }
+
+    C@{ shape: diamond, label: "n==0" }
+
+    D@{ shape: lean-r, label: "phi = 3.14" }
+    E@{ shape: lean-r, label: "phi = 22/7" }
+
+    F@{ shape: rect, label: "Luas = phi *Jari * Jari" }
+    H@{ shape: rect, label: "Kel = 2* phi *Jari" }
+
+    I@{ shape: lean-r, label: "&quot;Luas&quot;" }
+    J@{ shape: lean-r, label: "&quot;Kel&quot;" }    
+
+    K@{ shape: dbl-circ, label: "Stop" }
+
+    A --> B --> G --> C-. Ya .-> E --> F
+    C-. Tidak .-> D --> F --> H --> I-->J-->K
+
+
+```
