@@ -4,10 +4,11 @@
 Algoritma ini untuk menentukan bilangan ganjil dan genap secara Deskriptif
 
 1. Mulai
-2. Masukkan Angka
-3. menentukan bilangan genap: jika bilangan bisa habis dibagi 2, Kelompokkan di bilangan genap
-4. lalu sisanya kelompokkan di bilangan ganjil
-5. selesai
+2. Masukkan Bilangan
+3. Tampung nilai n dari hasil Bilangan di Modulus 2
+4. jika nilai n hasilnya 0, Kelompokkan di bilangan genap
+5. lalu sisanya kelompokkan di bilangan ganjil
+6. selesai
 
 ## Menentukan Ganjil Genap Flowcart
 
@@ -38,9 +39,11 @@ Algoritma ini untuk menentukan bilangan ganjil dan genap menggunakan Pseude-Code
 
 ```pseudo
 DECLARE Bilangan: INTEGER
-CONSTANT n = Bilangan % 2
+DECLARE n: INTEGER
+
 
 INPUT Bilangan
+n <- Bilangan % 2
 
 IF n==0 THEN
     OUTPUT "Bilangan Genap"
