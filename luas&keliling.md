@@ -31,7 +31,7 @@ flowchart TD
     H@{ shape: rect, label: "Kel = 2* phi *Jari" }
 
     I@{ shape: lean-r, label: "&quot;Luas Lingkaran {Luas}&quot;" }
-    J@{ shape: lean-r, label: "&quot;Keliling LingkaranKel}&quot;" }    
+    J@{ shape: lean-r, label: "&quot;Keliling Lingkaran {Kel}&quot;" }    
 
     K@{ shape: dbl-circ, label: "Stop" }
 
