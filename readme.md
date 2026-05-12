@@ -29,7 +29,7 @@ flowchart TB
     f@{ shape: rect, label: "PBV = s/BVPS" }
     g@{ shape: diamond, label: "PBV > 1" }
     h@{ shape: lean-r, label: "Harga Saham Mahal" }
-    i@{ shape: diamond, label: "PBV > 0,8" }
+    i@{ shape: diamond, label: "PBV > 0.8" }
     j@{ shape: lean-r, label: "Harga Saham Moderat" }
     k@{ shape: lean-r, label: "Harga Saham Murah" }
     l@{ shape: dbl-circ, label: "Stop" }
@@ -42,4 +42,30 @@ flowchart TB
 
 ```
 
+## Pseudo-Code
 
+Algoritma ini menghitung nilai valuasi saham apakah Murah atau Mahal dengan algoritma Pseudo-Code
+
+``` pseudo
+
+DECLARE s: INTEGER
+DECLARE e: INTEGER
+DECLARE n: INTEGER
+DECLARE BPVS: REAL
+DECLARE PBV: REAL
+
+INPUT s
+INPUT e
+INPUT n
+
+BPVS <- e/n
+PBV <- s/BPVS
+
+IF PBV > 1 THEN
+    OUTPUT "Harga Saham Mahal"
+ELSE IF PBV > 0.8 THEN
+    OUTPUT "Harga Saham Moderat"
+ELSE
+    OUTPUT "Harga Saham Murah"
+ENDIF
+```
