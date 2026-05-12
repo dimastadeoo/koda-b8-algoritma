@@ -9,7 +9,7 @@ Algoritma ini digunakan untuk menghitung luas dan keliling lingkaran
 4. jika nilai n hasilnya 0 maka nilai phi sebagai 22 dibagi 7
 5. Jika tidak maka nilai phi sebagai 3.14
 6. Hitung luas dengan rumus phi dikalikan Jari jari kuadrat
-7. Hitung Keliling dengan rumus: 2 dikalikan phi dikalikan jari jari
+7. Hitung Keliling dengan rumus 2 dikalikan phi dikalikan jari jari
 8. berikan output Luas lingkaran dari hasil rumus hitung Luas
 9. berikan output keliling lingkaran dari hasil rumus hitung keliling
 10. selesai
