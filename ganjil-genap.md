@@ -27,7 +27,7 @@ flowchart TD
 
     F@{ shape: dbl-circ, label: "Stop" }
 
-    A --> G --> B --> C-. Ya .-> E --> F
+    A --> B --> G --> C-. Ya .-> E --> F
     C-. Tidak .-> D --> F
 
 
